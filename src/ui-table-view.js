@@ -82,7 +82,7 @@
         priority: 10000,
         $$tlb: true,
         replace: false,
-        template: '<div class="mlz-ui-table-view-wrapper" ng-transclude></div>',
+        template: '<tr class="mlz-ui-table-view-wrapper" ng-transclude></tr>',
         link: function (scope, element, attributes, ctrl, $transclude) {
 
           var BUFFER_ROWS = 20,
